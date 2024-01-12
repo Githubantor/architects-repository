@@ -3,3 +3,53 @@
   *{
     font-family: 'Roboto', sans-serif;
   }
+  /* header styles */
+  header{
+    background-color:rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: black;
+  }
+  nav ul{
+    display: flex;
+  }
+  nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+    display: flex;
+  }
+  nav li a{
+    text-decoration: none;
+    color: black;
+  }
+  /* bannar styles */
+  .bannar-contant{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .bannar-title{
+    font-size: 64px;
+    font-weight: 700;
+  }
+  .btn-primary{
+    background-color: orange;
+    color: white;
+    width: 180px;
+    height: 64px;
+    border:2px solid rgba(255, 144, 14, 0.10) ;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 400;
+  }
