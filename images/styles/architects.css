@@ -98,6 +98,23 @@ main{
   color: black;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.facts-container{
+  display:flex;
+  justify-content: space-around;
+}
+.facts-container .card{
+  font-size: 25px;
+  font-weight: 400px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 1px solid red;
+  border-radius: 8px;
+  text-align: center;
+  padding: 50px 30px;
+}
+.facts-container .card-stats{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 
 
 @media screen and (max-width:576px) {
