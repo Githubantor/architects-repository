@@ -62,5 +62,42 @@
   nav{
     flex-direction: column;
   }
-
+}
+/* main styles */
+main{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.teams-container{
+  display: flex;
+  align-items: center;
+}
+.teams-img-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.teams-contant{
+  padding: 60px;
+}
+.teams-title{
+  font-size: 2rem;
+}
+.quick-list{
+  font-size: 4rem;
+  font-weight: 400;
+  color: #727272;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.of-our{
+  font-size: 45px;
+  font-weight: 700;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Features{
+  font-size: 45px;
+  font-weight: 700;
+  color: #ff900e;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
