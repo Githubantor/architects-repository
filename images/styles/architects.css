@@ -54,19 +54,10 @@
     font-size: 20px;
     font-weight: 400;
   }
- 
-@media screen and (max-width:576px) {
-  header{
-    padding: 20px;
-  }
-  nav{
-    flex-direction: column;
-  }
-}
 /* main styles */
 main{
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 70px auto;
 }
 .teams-container{
   display: flex;
@@ -100,4 +91,18 @@ main{
   font-weight: 700;
   color: #ff900e;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+@media screen and (max-width:576px) {
+  header{
+    padding: 20px;
+  }
+  nav,
+  .teams-container{
+    flex-direction: column;
+  }
+  .teams-img-container{
+    grid-template-columns: 1fr;
+  }
 }
