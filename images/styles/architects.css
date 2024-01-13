@@ -116,6 +116,14 @@ main{
   margin-bottom: 5px;
 }
 
+.Sponsors{
+  text-align: center;
+}
+.sponsor-img-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
 
 @media screen and (max-width:576px) {
   header{
@@ -127,5 +135,10 @@ main{
   }
   .teams-img-container{
     grid-template-columns: 1fr;
+  }
+  .sponsor-img-container{
+    width: 165px;
+    display: flex;
+    align-items: center;
   }
 }
