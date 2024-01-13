@@ -92,6 +92,12 @@ main{
   color: #ff900e;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.section-title{
+  font-size: 45px;
+  font-weight: 700;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 
 @media screen and (max-width:576px) {
